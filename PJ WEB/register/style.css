@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.register-form {
+    background: url(../register/1050469.012.jpg);
+    width: 100%;
+    height: 44rem;
+}
+
+.container {
+    background-color: rgb(245 245 245 / 38%);
+    background-position: center;
+}
+
+.container>h3>a {
+    color: rgba(0, 0, 255, 0.555)
+}
+
+.container {
+    width: 30rem;
+    margin-left: 48rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.container h1 {
+    padding-top: 2rem;
+}
+
+.container h3 {
+    padding-top: 0.5rem;
+}
+
+.container h1,
+h3 {
+    text-align: center;
+}
+
+.register {
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.register h4 {
+    font-size: larger;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=tel]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.register input {
+    width: 24rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 1px;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.register-submit {
+    height: 2.5rem;
+    width: 15rem;
+    border: solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+}
+
+.register-submit:hover {
+    opacity: 1;
+}
